@@ -1,0 +1,70 @@
+[15:01:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:01:08] [ServerMain/INFO]: No existing world data, creating new world
+[15:01:09] [ServerMain/INFO]: Loaded 1290 recipes
+[15:01:09] [ServerMain/INFO]: Loaded 1399 advancements
+[15:01:10] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[15:01:10] [Server thread/INFO]: Loading properties
+[15:01:10] [Server thread/INFO]: Default game type: SURVIVAL
+[15:01:10] [Server thread/INFO]: Generating keypair
+[15:01:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:01:10] [Server thread/INFO]: Using epoll channel type
+[15:01:10] [Server thread/INFO]: Preparing level "world"
+[15:01:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:01:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:01:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:01:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:01:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:01:27] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:01:27] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:28] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:28] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:29] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:29] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:30] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:30] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:31] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:31] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:32] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:32] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:34] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[15:01:34] [Worker-Main-1/INFO]: Preparing spawn area: 42%
+[15:01:35] [Server thread/INFO]: Time elapsed: 9870 ms
+[15:01:35] [Server thread/INFO]: Done (24.277s)! For help, type "help"
+[15:03:25] [User Authenticator #1/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
+[15:03:26] [Server thread/INFO]: DewaYoGamer[/127.0.0.1:56668] logged in with entity id 7 at (4.5, 106.0, -4.5)
+[15:03:26] [Server thread/INFO]: DewaYoGamer joined the game
+[15:04:50] [User Authenticator #2/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
+[15:04:51] [Server thread/INFO]: iniDarren[/127.0.0.1:41736] logged in with entity id 777 at (-5.5, 106.0, -5.5)
+[15:04:51] [Server thread/INFO]: iniDarren joined the game
+[15:09:17] [Server thread/INFO]: DewaYoGamer has made the advancement [Stone Age]
+[15:09:31] [Server thread/INFO]: iniDarren has made the advancement [Stone Age]
+[15:10:40] [Server thread/INFO]: DewaYoGamer has made the advancement [Getting an Upgrade]
+[15:10:50] [Server thread/INFO]: iniDarren has made the advancement [Getting an Upgrade]
+[15:14:05] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
+[15:14:05] [Server thread/INFO]: DewaYoGamer left the game
+[15:14:07] [Server thread/INFO]: iniDarren has made the advancement [Sweet Dreams]
+[15:14:38] [User Authenticator #3/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
+[15:14:38] [Server thread/INFO]: DewaYoGamer[/127.0.0.1:36056] logged in with entity id 3115 at (-31.59187215044426, 112.0, -35.95688789537271)
+[15:14:38] [Server thread/INFO]: DewaYoGamer joined the game
+[15:18:28] [Server thread/INFO]: DewaYoGamer has made the advancement [Monster Hunter]
+[15:19:06] [Server thread/INFO]: iniDarren has made the advancement [Monster Hunter]
+[15:25:16] [Server thread/INFO]: DewaYoGamer has made the advancement [Sweet Dreams]
+[15:28:09] [Server thread/INFO]: DewaYoGamer has made the advancement [Acquire Hardware]
+[15:28:29] [Server thread/INFO]: iniDarren has made the advancement [Acquire Hardware]
+[15:28:51] [Server thread/INFO]: iniDarren has made the advancement [Isn't It Iron Pick]
+[15:34:17] [Server thread/INFO]: DewaYoGamer has made the advancement [Not Today, Thank You]
+[15:40:02] [Server thread/INFO]: DewaYoGamer has made the advancement [Isn't It Iron Pick]
+[15:59:00] [Server thread/INFO]: iniDarren fell from a high place
+[16:01:04] [Server thread/INFO]: DewaYoGamer has made the advancement [Diamonds!]
+[16:13:04] [Server thread/INFO]: DewaYoGamer tried to swim in lava
+[16:19:27] [Server thread/INFO]: DewaYoGamer has made the advancement [Best Friends Forever]
+[16:23:14] [Server thread/INFO]: iniDarren has made the advancement [Suit Up]
+[16:23:46] [Server thread/INFO]: DewaYoGamer has made the advancement [Suit Up]
+[16:30:57] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=33, y=114, z=-47} jd{x=32, y=113, z=-49}
+[16:38:10] [Server thread/INFO]: iniDarren has made the advancement [A Seedy Place]
+[16:55:13] [Server thread/INFO]: iniDarren lost connection: Disconnected
+[16:55:13] [Server thread/INFO]: iniDarren left the game
+[16:55:15] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
+[16:55:15] [Server thread/INFO]: DewaYoGamer left the game
