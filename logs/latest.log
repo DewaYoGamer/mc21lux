@@ -1,30 +1,42 @@
-[05:16:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:16:24] [ServerMain/INFO]: Loaded 1290 recipes
-[05:16:24] [ServerMain/INFO]: Loaded 1399 advancements
-[05:16:25] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[05:16:25] [Server thread/INFO]: Loading properties
-[05:16:25] [Server thread/INFO]: Default game type: SURVIVAL
-[05:16:25] [Server thread/INFO]: Generating keypair
-[05:16:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:16:25] [Server thread/INFO]: Using epoll channel type
-[05:16:25] [Server thread/INFO]: Preparing level "world"
-[05:16:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:16:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:16:27] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[05:16:27] [Server thread/INFO]: Time elapsed: 630 ms
-[05:16:27] [Server thread/INFO]: Done (2.645s)! For help, type "help"
-[05:19:44] [User Authenticator #1/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
-[05:19:45] [Server thread/INFO]: DewaYoGamer[/127.140.85.176:43413] logged in with entity id 43 at (-33.69999998807907, 116.0, -38.598483329874384)
-[05:19:45] [Server thread/INFO]: DewaYoGamer joined the game
-[05:23:08] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
-[05:23:08] [Server thread/INFO]: DewaYoGamer left the game
-[05:23:27] [User Authenticator #2/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
-[05:23:28] [Server thread/INFO]: DewaYoGamer[/[0:0:0:0:0:0:0:1%0]:42192] logged in with entity id 875 at (-30.64203434150373, 112.0, -37.698484580046056)
-[05:23:28] [Server thread/INFO]: DewaYoGamer joined the game
-[05:24:40] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
-[05:24:40] [Server thread/INFO]: DewaYoGamer left the game
-[05:25:49] [User Authenticator #3/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
-[05:25:49] [Server thread/INFO]: DewaYoGamer[/127.140.85.176:39713] logged in with entity id 1434 at (-31.229583900432587, 112.0, -36.74171698098113)
-[05:25:49] [Server thread/INFO]: DewaYoGamer joined the game
-[05:28:03] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
-[05:28:03] [Server thread/INFO]: DewaYoGamer left the game
+[07:42:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:42:44] [ServerMain/INFO]: Loaded 1290 recipes
+[07:42:44] [ServerMain/INFO]: Loaded 1399 advancements
+[07:42:45] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[07:42:45] [Server thread/INFO]: Loading properties
+[07:42:45] [Server thread/INFO]: Default game type: SURVIVAL
+[07:42:45] [Server thread/INFO]: Generating keypair
+[07:42:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:42:45] [Server thread/INFO]: Using epoll channel type
+[07:42:45] [Server thread/INFO]: Preparing level "world"
+[07:42:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:42:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:42:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:42:52] [Server thread/INFO]: Time elapsed: 856 ms
+[07:42:52] [Server thread/INFO]: Done (6.810s)! For help, type "help"
+[07:44:41] [User Authenticator #1/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
+[07:44:43] [Server thread/INFO]: iniDarren[/127.147.86.137:44475] logged in with entity id 37 at (-30.591364780896672, 112.0, -38.49282013852947)
+[07:44:43] [Server thread/INFO]: iniDarren joined the game
+[07:44:44] [User Authenticator #2/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
+[07:44:45] [Server thread/INFO]: DewaYoGamer[/127.71.171.169:48963] logged in with entity id 124 at (-30.590458575847247, 112.0, -35.83245108958009)
+[07:44:45] [Server thread/INFO]: DewaYoGamer joined the game
+[07:49:43] [Server thread/INFO]: iniDarren lost connection: Disconnected
+[07:49:43] [Server thread/INFO]: iniDarren left the game
+[07:50:41] [User Authenticator #3/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
+[07:50:43] [Server thread/INFO]: iniDarren[/127.147.86.137:38707] logged in with entity id 1205 at (-33.00437143297685, 97.0, -4.607195260428336)
+[07:50:43] [Server thread/INFO]: iniDarren joined the game
+[08:01:36] [Server thread/INFO]: iniDarren has made the advancement [Diamonds!]
+[08:02:10] [Server thread/INFO]: iniDarren has made the advancement [Not Today, Thank You]
+[08:16:45] [Server thread/INFO]: iniDarren has made the advancement [Hot Stuff]
+[08:16:52] [Server thread/INFO]: DewaYoGamer has made the advancement [Hot Stuff]
+[08:19:45] [Server thread/INFO]: DewaYoGamer has made the advancement [The Parrots and the Bats]
+[08:25:22] [Server thread/INFO]: DewaYoGamer has made the advancement [Take Aim]
+[08:34:15] [Server thread/INFO]: iniDarren has made the advancement [Tactical Fishing]
+[08:41:00] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=6, y=108, z=-17} jd{x=7, y=108, z=-17}
+[08:43:36] [Server thread/INFO]: iniDarren has made the advancement [The Parrots and the Bats]
+[09:10:15] [Server thread/INFO]: iniDarren fell from a high place
+[09:25:13] [Server thread/INFO]: iniDarren has made the advancement [Glow and Behold!]
+[10:37:33] [Server thread/INFO]: iniDarren has made the advancement [Best Friends Forever]
+[10:43:24] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
+[10:43:24] [Server thread/INFO]: DewaYoGamer left the game
+[10:43:40] [Server thread/INFO]: iniDarren lost connection: Disconnected
+[10:43:40] [Server thread/INFO]: iniDarren left the game
