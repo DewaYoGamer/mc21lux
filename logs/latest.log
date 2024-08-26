@@ -1,42 +1,140 @@
-[07:42:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:42:44] [ServerMain/INFO]: Loaded 1290 recipes
-[07:42:44] [ServerMain/INFO]: Loaded 1399 advancements
-[07:42:45] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[07:42:45] [Server thread/INFO]: Loading properties
-[07:42:45] [Server thread/INFO]: Default game type: SURVIVAL
-[07:42:45] [Server thread/INFO]: Generating keypair
-[07:42:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:42:45] [Server thread/INFO]: Using epoll channel type
-[07:42:45] [Server thread/INFO]: Preparing level "world"
-[07:42:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:42:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[07:42:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[07:42:52] [Server thread/INFO]: Time elapsed: 856 ms
-[07:42:52] [Server thread/INFO]: Done (6.810s)! For help, type "help"
-[07:44:41] [User Authenticator #1/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
-[07:44:43] [Server thread/INFO]: iniDarren[/127.147.86.137:44475] logged in with entity id 37 at (-30.591364780896672, 112.0, -38.49282013852947)
-[07:44:43] [Server thread/INFO]: iniDarren joined the game
-[07:44:44] [User Authenticator #2/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
-[07:44:45] [Server thread/INFO]: DewaYoGamer[/127.71.171.169:48963] logged in with entity id 124 at (-30.590458575847247, 112.0, -35.83245108958009)
-[07:44:45] [Server thread/INFO]: DewaYoGamer joined the game
-[07:49:43] [Server thread/INFO]: iniDarren lost connection: Disconnected
-[07:49:43] [Server thread/INFO]: iniDarren left the game
-[07:50:41] [User Authenticator #3/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
-[07:50:43] [Server thread/INFO]: iniDarren[/127.147.86.137:38707] logged in with entity id 1205 at (-33.00437143297685, 97.0, -4.607195260428336)
-[07:50:43] [Server thread/INFO]: iniDarren joined the game
-[08:01:36] [Server thread/INFO]: iniDarren has made the advancement [Diamonds!]
-[08:02:10] [Server thread/INFO]: iniDarren has made the advancement [Not Today, Thank You]
-[08:16:45] [Server thread/INFO]: iniDarren has made the advancement [Hot Stuff]
-[08:16:52] [Server thread/INFO]: DewaYoGamer has made the advancement [Hot Stuff]
-[08:19:45] [Server thread/INFO]: DewaYoGamer has made the advancement [The Parrots and the Bats]
-[08:25:22] [Server thread/INFO]: DewaYoGamer has made the advancement [Take Aim]
-[08:34:15] [Server thread/INFO]: iniDarren has made the advancement [Tactical Fishing]
-[08:41:00] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=6, y=108, z=-17} jd{x=7, y=108, z=-17}
-[08:43:36] [Server thread/INFO]: iniDarren has made the advancement [The Parrots and the Bats]
-[09:10:15] [Server thread/INFO]: iniDarren fell from a high place
-[09:25:13] [Server thread/INFO]: iniDarren has made the advancement [Glow and Behold!]
-[10:37:33] [Server thread/INFO]: iniDarren has made the advancement [Best Friends Forever]
-[10:43:24] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
-[10:43:24] [Server thread/INFO]: DewaYoGamer left the game
-[10:43:40] [Server thread/INFO]: iniDarren lost connection: Disconnected
-[10:43:40] [Server thread/INFO]: iniDarren left the game
+[18:30:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1022-azure (amd64)
+[18:30:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-41-master@fcedb49 (2024-08-24T09:02:10Z) for Minecraft 1.21.1
+[18:30:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:30:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[18:30:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - ActionHealth (3.5.9), DirectionHUD (1.4.3+1.18-1.21.1), ImageFrame (1.7.10.0), TitleManager (2.3.6), ToolStats (1.7.3)
+[18:31:04] [ServerMain/WARN]: resource-pack-id missing, using default of 91ad38e4-400f-3984-833f-98a81a2cf681
+[18:31:04] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:31:07] [ServerMain/INFO]: Loaded 1290 recipes
+[18:31:08] [ServerMain/INFO]: Loaded 1399 advancements
+[18:31:08] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[18:31:08] [Server thread/INFO]: Loading properties
+[18:31:08] [Server thread/INFO]: This server is running Paper version 1.21.1-41-master@fcedb49 (2024-08-24T09:02:10Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[18:31:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:31:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:31:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:31:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[18:31:11] [Server thread/INFO]: Default game type: SURVIVAL
+[18:31:11] [Server thread/INFO]: Generating keypair
+[18:31:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:31:11] [Server thread/INFO]: Using epoll channel type
+[18:31:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:31:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:31:11] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[18:31:11] [Server thread/INFO]: [ToolStats] Loading server plugin ToolStats v1.7.3
+[18:31:11] [Server thread/INFO]: [DirectionHUD] Loading server plugin DirectionHUD v1.4.3+1.18-1.21.1
+[18:31:11] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
+[18:31:11] [Server thread/INFO]: [TitleManager] Loading server plugin TitleManager v2.3.6
+[18:31:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:31:11] [Server thread/INFO]: Preparing level "world"
+[18:31:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:31:15] [Server thread/INFO]: Time elapsed: 2618 ms
+[18:31:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:31:16] [Server thread/INFO]: Time elapsed: 347 ms
+[18:31:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:31:16] [Server thread/INFO]: Time elapsed: 304 ms
+[18:31:16] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[18:31:18] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[18:31:18] [Server thread/INFO]: [ToolStats] Enabling ToolStats v1.7.3
+[18:31:20] [Server thread/INFO]: [DirectionHUD] Enabling DirectionHUD v1.4.3+1.18-1.21.1
+[18:31:20] [Server thread/INFO]: [DirectionHUD] Started server!
+[18:31:20] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
+[18:31:21] [Server thread/INFO]: [TitleManager] Enabling TitleManager v2.3.6
+[18:31:24] [Server thread/INFO]: [spark] Starting background profiler...
+[18:31:25] [Server thread/INFO]: Done preparing level "world" (13.548s)
+[18:31:25] [Server thread/INFO]: Running delayed init tasks
+[18:31:25] [Server thread/INFO]: Done (30.765s)! For help, type "help"
+[18:31:25] [Server thread/INFO]: Timings Reset
+[18:31:25] [Craft Scheduler Thread - 2 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
+[18:31:26] [Craft Scheduler Thread - 4 - ToolStats/INFO]: [ToolStats] You are running the latest version.
+[18:31:50] [User Authenticator #0/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
+[18:31:52] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to TitleManager v2.3.6
+java.lang.ExceptionInInitializerError: null
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.reflections.NMSManager.getClassProvider(NMSManager.kt:61) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.reflections.NMSClass.<init>(Classes.kt:12) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.reflections.NMSClass.<init>(Classes.kt:11) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.reflections.ChatSerializer.<init>(Classes.kt:194) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.reflections.ChatSerializer.<clinit>(Classes.kt) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.model.scoreboard.ScoreboardHandler.setTitleWithoutLimit(ScoreboardHandler.kt:107) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.model.scoreboard.ScoreboardHandler.setTitle(ScoreboardHandler.kt:36) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.model.scoreboard.ScoreboardHandler.<init>(ScoreboardHandler.kt:43) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.model.scoreboard.ScoreboardHandler.<init>(ScoreboardHandler.kt:16) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.services.features.ScoreboardServiceSpigot.giveScoreboard(ScoreboardServiceSpigot.kt:61) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.services.features.ScoreboardServiceSpigot.giveDefaultScoreboard(ScoreboardServiceSpigot.kt:68) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.services.features.ScoreboardServiceSpigot.toggleScoreboardInWorld(ScoreboardServiceSpigot.kt:234) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.services.event.ListenerServiceSpigot$registerSetScoreboard$$inlined$listenEventSync$default$1.invoke(ListenerServiceSpigot.kt:212) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.services.event.ListenerServiceSpigot$registerSetScoreboard$$inlined$listenEventSync$default$1.invoke(ListenerServiceSpigot.kt:95) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.model.event.TMEventListener._init_$lambda-1(TMEventListener.kt:31) ~[TitleManager-2.3.6.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-41-fcedb49]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:347) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:173) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:13) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.network.chat.ChatComponentText
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.forName(AbstractDefaultRulesReflectionProxy.java:68) ~[reflection-rewriter-runtime-0.0.3.jar:?]
+	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.forName(Unknown Source) ~[paper-1.21.1.jar:1.21.1-41-fcedb49]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.reflections.ReflectionClass.<init>(ReflectionClass.kt:7) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.reflections.NMSType.getReflectionClass(NMSType.kt:16) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.reflections.NMSClassProvider.associate(NMSClassProvider.kt:12) ~[TitleManager-2.3.6.jar:?]
+	at TitleManager-2.3.6.jar/io.puharesource.mc.titlemanager.internal.reflections.Provider117.<clinit>(Providers.kt:203) ~[TitleManager-2.3.6.jar:?]
+	... 39 more
+[18:31:52] [Server thread/INFO]: DewaYoGamer joined the game
+[18:31:52] [Server thread/INFO]: DewaYoGamer[/127.71.62.209:47087] logged in with entity id 72 at ([world]-30.82312797232295, 112.0, -35.617359355723266)
+[18:31:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2528ms or 50 ticks behind
+[18:34:55] [Server thread/INFO]: Stopping server
+[18:34:55] [Server thread/INFO]: [TitleManager] Disabling TitleManager v2.3.6
+[18:34:55] [Server thread/INFO]: [ActionHealth] Disabling ActionHealth v3.5.9
+[18:34:55] [Server thread/INFO]: [DirectionHUD] Disabling DirectionHUD v1.4.3+1.18-1.21.1
+[18:34:55] [Server thread/INFO]: [DirectionHUD] Safely shutdown DirectionHUD server!
+[18:34:55] [Server thread/INFO]: [ToolStats] Disabling ToolStats v1.7.3
+[18:34:55] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.7.10.0
+[18:34:55] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[18:34:55] [Server thread/INFO]: Saving players
+[18:34:55] [Server thread/INFO]: DewaYoGamer lost connection: Server closed
+[18:34:55] [Server thread/INFO]: DewaYoGamer left the game
+[18:34:56] [Server thread/INFO]: Saving worlds
+[18:34:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:34:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:34:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:34:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:35:00] [Server thread/INFO]: [ChunkHolderManager] Saved 1369 block chunks, 1369 entity chunks, 0 poi chunks in world 'world' in 4.42s
+[18:35:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:35:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:35:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:35:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:35:00] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.20s
+[18:35:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:35:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:35:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:35:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:35:00] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.11s
+[18:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
