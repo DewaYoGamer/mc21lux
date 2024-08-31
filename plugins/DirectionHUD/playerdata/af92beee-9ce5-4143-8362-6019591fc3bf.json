@@ -5,9 +5,9 @@
     "module": {
       "coordinates": true,
       "destination": true,
-      "distance": true,
-      "tracking": false,
-      "direction": true,
+      "distance": false,
+      "tracking": true,
+      "direction": false,
       "weather": true,
       "time": true,
       "angle": false,
@@ -43,7 +43,7 @@
       "angle"
     ],
     "primary": {
-      "color": "#ff8e16",
+      "color": "#5dc836",
       "bold": false,
       "italics": false,
       "rainbow": false
@@ -56,7 +56,16 @@
     }
   },
   "destination": {
-    "saved": [],
+    "saved": [
+      {
+        "name": "home",
+        "color": "#ffffff",
+        "x": -32,
+        "y": 112,
+        "z": -38,
+        "dimension": "world"
+      }
+    ],
     "dest": {},
     "lastdeath": [
       {
