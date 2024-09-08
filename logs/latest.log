@@ -1,124 +1,203 @@
-[09:49:31] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
-[09:49:32] [main/WARN]: Warnings were found!
- - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu, which is missing!
-	 - You should install any version of modmenu for the optimal experience.
- - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu-badges-lib, which is missing!
-	 - You should install any version of modmenu-badges-lib for the optimal experience.
- - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of midnightlib, which is missing!
-	 - You should install any version of midnightlib for the optimal experience.
-[09:49:32] [main/INFO]: Loading 59 mods:
-	- collective 7.84
-	- dynamiclights 1.8.3+mod
-	- fabric-api 0.103.0+1.21.1
-	   |-- fabric-api-base 0.4.42+6573ed8c19
-	   |-- fabric-api-lookup-api-v1 1.6.68+b559734419
-	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bc19
-	   |-- fabric-block-api-v1 1.0.22+0af3f5a719
-	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c19
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
-	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
-	   |-- fabric-command-api-v1 1.2.49+f71b366f19
-	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
-	   |-- fabric-commands-v0 0.2.66+df3654b319
-	   |-- fabric-content-registries-v0 8.0.16+b559734419
-	   |-- fabric-convention-tags-v1 2.0.21+7f945d5b19
-	   |-- fabric-convention-tags-v2 2.6.1+9b16164119
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
-	   |-- fabric-data-attachment-api-v1 1.1.28+1daea21519
-	   |-- fabric-data-generation-api-v1 20.2.18+16c4ae2519
-	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
-	   |-- fabric-entity-events-v1 1.7.0+2122d82819
-	   |-- fabric-events-interaction-v0 0.7.12+ba9dae0619
-	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
-	   |-- fabric-item-api-v1 11.0.0+afdfc92119
-	   |-- fabric-item-group-api-v1 4.1.5+3fc0e55219
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
-	   |-- fabric-keybindings-v0 0.2.45+df3654b319
-	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df36019
-	   |-- fabric-loot-api-v2 3.0.14+3f89f5a519
-	   |-- fabric-loot-api-v3 1.0.2+3f89f5a519
-	   |-- fabric-message-api-v1 6.0.13+6573ed8c19
-	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
-	   |-- fabric-networking-api-v1 4.2.2+60c3209b19
-	   |-- fabric-object-builder-api-v1 15.2.0+40875a9319
-	   |-- fabric-particles-v1 4.0.2+6573ed8c19
-	   |-- fabric-recipe-api-v1 5.0.12+6508971219
-	   |-- fabric-registry-sync-v0 5.1.2+60c3209b19
-	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
-	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
-	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
-	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
-	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
-	   |-- fabric-rendering-v0 1.1.71+df3654b319
-	   |-- fabric-rendering-v1 5.0.5+df16efd019
-	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
-	   |-- fabric-resource-loader-v0 1.3.0+5659912919
-	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
-	   |-- fabric-screen-handler-api-v1 1.3.86+b559734419
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
-	   |-- fabric-transfer-api-v1 5.1.17+1db1cc1f19
-	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
-	- fabric-language-kotlin 1.12.1+kotlin.2.0.20
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.20
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.20
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.20
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.20
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
-	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.3
-	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.3
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.1
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.1
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.1
-	- fabricloader 0.16.3
-	   \-- mixinextras 0.4.1
-	- java 21
-	- lithium 0.13.0
-	- minecraft 1.21.1
-	- treeharvester 9.1
-[09:49:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mc21lux/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[09:49:32] [main/INFO]: Compatibility level set to JAVA_21
-[09:49:33] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 0 override(s) found
-[09:49:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[09:49:45] [main/INFO]: Loading Collective version 7.84.
-[09:49:45] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[09:49:45] [main/WARN]: resource-pack-id missing, using default of f3b5718d-c70d-3c94-a2df-fa24ea10c3e7
-[09:49:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:49:49] [main/INFO]: Loaded 1290 recipes
-[09:49:50] [main/INFO]: Loaded 1400 advancements
-[09:49:50] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.476 ms
-[09:49:50] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[09:49:50] [Server thread/INFO]: Loading properties
-[09:49:50] [Server thread/INFO]: Default game type: SURVIVAL
-[09:49:50] [Server thread/INFO]: Generating keypair
-[09:49:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:49:50] [Server thread/INFO]: Using epoll channel type
-[09:49:51] [Server thread/INFO]: Preparing level "world"
-[09:49:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:49:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:49:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:49:59] [Server thread/INFO]: Time elapsed: 835 ms
-[09:49:59] [Server thread/INFO]: Done (8.664s)! For help, type "help"
-[09:54:41] [User Authenticator #1/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
-[09:54:44] [Server thread/INFO]: DewaYoGamer[/127.157.182.228:41135] logged in with entity id 72 at (590.4528473004649, -52.0, -221.47306667029403)
-[09:54:44] [Server thread/INFO]: DewaYoGamer joined the game
-[09:54:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[10:17:00] [User Authenticator #2/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
-[10:17:04] [Server thread/INFO]: iniDarren[/127.204.136.219:48777] logged in with entity id 9659 at (588.4281976147521, -52.0, -218.0808323592564)
-[10:17:04] [Server thread/INFO]: iniDarren joined the game
-[10:17:11] [Server thread/INFO]: <iniDarren> kuda cuki
-[10:17:50] [Server thread/INFO]: <DewaYoGamer> kontol
-[10:23:47] [Server thread/INFO]: <DewaYoGamer> xaero-waypoint:Portal:P:2487:63:8188:13:false:0:Internal-overworld-waypoints
-[10:24:10] [Server thread/INFO]: <iniDarren> memek portal 8km
-[10:24:24] [Server thread/INFO]: <DewaYoGamer> yoi
-[10:31:18] [Server thread/INFO]: iniDarren lost connection: Disconnected
-[10:31:18] [Server thread/INFO]: iniDarren left the game
-[10:58:21] [Server thread/INFO]: Villager class_1646['Villager'/35963, l='ServerLevel[world]', x=1180.83, y=64.00, z=9468.17] died, message: 'Villager was shot by DewaYoGamer'
-[11:37:31] [Server thread/INFO]: Villager class_1646['Farmer'/64223, l='ServerLevel[world]', x=1195.36, y=67.19, z=12087.74] died, message: 'Farmer was slain by Zombie'
-[11:44:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4725ms or 94 ticks behind
-[11:53:27] [Server thread/INFO]: Villager class_1646['Villager'/73031, l='ServerLevel[world]', x=2256.28, y=66.00, z=11448.37] died, message: 'Villager suffocated in a wall'
-[12:12:02] [Server thread/INFO]: Villager class_1646['Nitwit'/80302, l='ServerLevel[world]', x=2390.63, y=71.50, z=10982.28] died, message: 'Nitwit suffocated in a wall'
-[12:32:05] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
-[12:32:05] [Server thread/INFO]: DewaYoGamer left the game
+[00:12:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2199ms or 43 ticks behind
+[00:43:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4149ms or 82 ticks behind
+[03:03:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2408ms or 48 ticks behind
+[04:23:02] [User Authenticator #15/INFO]: UUID of player KaptenZ is 77553233-86dc-49cf-8f8e-af729c70fffb
+[04:23:05] [Server thread/INFO]: KaptenZ[/180.252.55.208:22459] logged in with entity id 215090 at (586.3000000119209, -52.0, -216.48909045236553)
+[04:23:05] [Server thread/INFO]: KaptenZ joined the game
+[04:38:13] [Server thread/WARN]: KaptenZ moved too quickly! -8.964051636653494,0.03584062504455687,4.469923495583515
+[04:38:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8811ms or 176 ticks behind
+[05:07:51] [Server thread/INFO]: KaptenZ lost connection: Disconnected
+[05:07:51] [Server thread/INFO]: KaptenZ left the game
+[05:08:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3387ms or 67 ticks behind
+[05:47:34] [User Authenticator #16/INFO]: UUID of player KaptenZ is 77553233-86dc-49cf-8f8e-af729c70fffb
+[05:47:36] [Server thread/INFO]: KaptenZ[/180.252.55.208:20149] logged in with entity id 235562 at (586.3000000119209, -52.0, -216.69999998807907)
+[05:47:36] [Server thread/INFO]: KaptenZ joined the game
+[05:50:33] [Server thread/WARN]: handleDisconnection() called twice
+[05:50:34] [User Authenticator #17/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
+[05:50:36] [Server thread/INFO]: DewaYoGamer[/36.83.144.237:50625] logged in with entity id 236580 at (593.8147314331133, -48.0, -215.57991547728258)
+[05:50:36] [Server thread/INFO]: DewaYoGamer joined the game
+[06:05:07] [Server thread/WARN]: KaptenZ moved wrongly!
+[06:11:48] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
+[06:11:48] [Server thread/INFO]: DewaYoGamer left the game
+[06:16:48] [User Authenticator #18/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
+[06:16:52] [Server thread/INFO]: iniDarren[/114.125.58.216:53531] logged in with entity id 258533 at (588.7849404776996, -52.0, -220.20850248114073)
+[06:16:52] [Server thread/INFO]: iniDarren joined the game
+[06:17:07] [Server thread/INFO]: <iniDarren> p
+[06:17:19] [Server thread/INFO]: <KaptenZ> gk discord ?
+[06:17:29] [Server thread/INFO]: <iniDarren> sbr
+[06:17:41] [User Authenticator #19/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
+[06:17:44] [Server thread/INFO]: DewaYoGamer[/36.83.144.237:51467] logged in with entity id 258865 at (594.2505380548938, -47.0, -211.80702845780564)
+[06:17:44] [Server thread/INFO]: DewaYoGamer joined the game
+[06:19:29] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:29] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:29] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:29] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:29] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:30] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:30] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:31] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:31] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:31] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:31] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:31] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:32] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:32] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:32] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:32] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:19:33] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:21:16] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:21:16] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[06:23:49] [Server thread/WARN]: iniDarren moved wrongly!
+[06:23:53] [Server thread/WARN]: iniDarren moved wrongly!
+[06:23:54] [Server thread/WARN]: iniDarren moved wrongly!
+[07:39:22] [Server thread/INFO]: KaptenZ has made the advancement [What a Deal!]
+[07:42:47] [Server thread/INFO]: iniDarren has made the advancement [What a Deal!]
+[08:46:24] [Server thread/INFO]: iniDarren lost connection: Disconnected
+[08:46:24] [Server thread/INFO]: iniDarren left the game
+[08:46:38] [User Authenticator #20/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
+[08:46:41] [Server thread/INFO]: iniDarren[/114.125.58.216:57065] logged in with entity id 396812 at (27.002694316556216, 114.25220334025373, -43.772849684461654)
+[08:46:41] [Server thread/INFO]: iniDarren joined the game
+[09:35:51] [Server thread/INFO]: Villager class_1646['Leatherworker'/409724, l='ServerLevel[world]', x=607.50, y=-47.00, z=-213.30] died, message: 'Leatherworker was burned to a crisp while fighting DewaYoGamer'
+[10:32:17] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:17] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:17] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:17] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:20] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:22] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:23] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:23] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:27] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:27] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:29] [Server thread/WARN]: iniDarren moved wrongly!
+[10:32:33] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:42] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:43] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:43] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:43] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:44] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:44] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:45] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:45] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:45] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:45] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:45] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:46] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:46] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:46] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:46] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:50] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:50] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:50] [Server thread/WARN]: iniDarren moved wrongly!
+[10:34:51] [Server thread/WARN]: iniDarren moved wrongly!
+[11:14:15] [Server thread/INFO]: iniDarren lost connection: Disconnected
+[11:14:15] [Server thread/INFO]: iniDarren left the game
+[11:17:16] [Server thread/INFO]: Villager class_1646['Villager'/489836, l='ServerLevel[world]', x=611.50, y=-47.00, z=-206.70] died, message: 'Villager tried to swim in lava'
+[11:22:28] [Server thread/INFO]: Villager class_1646['Librarian'/493729, l='ServerLevel[world]', x=611.50, y=-47.00, z=-206.49] died, message: 'Librarian tried to swim in lava'
+[11:41:07] [Server thread/INFO]: Villager class_1646['Librarian'/363781, l='ServerLevel[world]', x=601.50, y=-47.00, z=-206.70] died, message: 'Librarian burned to death'
+[11:48:19] [Server thread/INFO]: Villager class_1646['Librarian'/472786, l='ServerLevel[world]', x=611.50, y=-47.00, z=-206.70] died, message: 'Librarian burned to death'
+[11:49:32] [Server thread/INFO]: KaptenZ has made the advancement [Surge Protector]
+[11:56:19] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[11:56:19] [Server thread/WARN]: DewaYoGamer moved wrongly!
+[12:03:00] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
+[12:03:00] [Server thread/INFO]: DewaYoGamer left the game
+[12:03:39] [Server thread/INFO]: KaptenZ lost connection: Disconnected
+[12:03:39] [Server thread/INFO]: KaptenZ left the game
+[12:47:04] [User Authenticator #21/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
+[12:47:12] [Server thread/INFO]: iniDarren[/114.125.58.216:63001] logged in with entity id 552386 at (590.8532552473255, -52.0, -220.04671738238824)
+[12:47:12] [Server thread/INFO]: iniDarren joined the game
+[12:49:27] [Server thread/INFO]: iniDarren lost connection: Timed out
+[12:49:27] [Server thread/INFO]: iniDarren left the game
+[12:49:27] [Server thread/WARN]: handleDisconnection() called twice
+[12:52:20] [User Authenticator #22/INFO]: UUID of player KaptenZ is 77553233-86dc-49cf-8f8e-af729c70fffb
+[12:52:25] [Server thread/INFO]: KaptenZ[/180.252.55.208:8228] logged in with entity id 553152 at (623.6979705676558, -47.0, -209.83615575873398)
+[12:52:25] [Server thread/INFO]: KaptenZ joined the game
+[12:52:53] [Server thread/INFO]: <KaptenZ> ngapain ?
+[12:55:25] [User Authenticator #23/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
+[12:55:44] [Server thread/INFO]: iniDarren[/114.125.58.216:63461] logged in with entity id 554178 at (587.9205864736447, -52.0, -218.07753894701568)
+[12:55:44] [Server thread/INFO]: iniDarren joined the game
+[12:56:01] [Server thread/INFO]: <iniDarren> ngentit masih lag
+[12:56:05] [Server thread/INFO]: iniDarren lost connection: Disconnected
+[12:56:05] [Server thread/INFO]: iniDarren left the game
+[12:56:06] [Server thread/INFO]: <KaptenZ> nt
+[13:02:38] [User Authenticator #24/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
+[13:02:51] [Server thread/INFO]: iniDarren[/114.125.58.216:63774] logged in with entity id 557127 at (588.3054765168251, -52.0, -212.7579070952435)
+[13:02:51] [Server thread/INFO]: iniDarren joined the game
+[13:03:11] [Server thread/INFO]: <iniDarren> lag banget ngentoddddddddddddd
+[13:03:22] [Server thread/INFO]: <KaptenZ> server lagi jelek
+[13:03:35] [Server thread/WARN]: iniDarren moved too quickly! -6.853918724948812,-2.0,-7.153217891986202
+[13:03:56] [User Authenticator #25/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
+[13:04:00] [Server thread/INFO]: DewaYoGamer[/36.83.144.237:50457] logged in with entity id 557626 at (591.5681654531318, -47.0, -210.10294242993152)
+[13:04:00] [Server thread/INFO]: DewaYoGamer joined the game
+[13:04:14] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
+[13:04:14] [Server thread/INFO]: DewaYoGamer left the game
+[13:04:20] [Server thread/INFO]: <KaptenZ> t
+[13:04:28] [Server thread/INFO]: <KaptenZ> lo lag amat
+[13:05:02] [Server thread/INFO]: iniDarren lost connection: Disconnected
+[13:05:02] [Server thread/INFO]: iniDarren left the game
+[13:14:12] [Server thread/WARN]: KaptenZ moved wrongly!
+[13:39:44] [Netty Epoll Server IO #7/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:21:10] [User Authenticator #26/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
+[14:21:17] [Server thread/INFO]: iniDarren[/114.125.58.216:50553] logged in with entity id 581532 at (611.1814690774946, -47.0, -210.826750659621)
+[14:21:17] [Server thread/INFO]: iniDarren joined the game
+[14:21:30] [Server thread/INFO]: <KaptenZ> server lelet
+[14:21:35] [Server thread/INFO]: <iniDarren> ngentotttttt
+[14:22:58] [Server thread/INFO]: <iniDarren> lu lag tak
+[14:23:04] [Server thread/INFO]: <KaptenZ> lag juga kadang
+[14:23:25] [Server thread/INFO]: <iniDarren> taiiii
+[14:23:31] [Server thread/INFO]: iniDarren lost connection: Disconnected
+[14:23:31] [Server thread/INFO]: iniDarren left the game
+[14:26:21] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
