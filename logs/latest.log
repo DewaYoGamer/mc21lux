@@ -1,9 +1,111 @@
-[05:32:57] [User Authenticator #28/INFO]: UUID of player iniDarren is 1e67d390-353c-4fc3-ba92-cb7bd538efa2
-[05:33:00] [Server thread/INFO]: iniDarren[/127.149.73.74:42817] logged in with entity id 437884 at (589.4093456740663, -52.0, -220.5535959339533)
-[05:33:00] [Server thread/INFO]: iniDarren joined the game
-[07:43:26] [Server thread/INFO]: iniDarren lost connection: Disconnected
-[07:43:26] [Server thread/INFO]: iniDarren left the game
-[09:27:42] [Netty Epoll Server IO #5/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[02:38:17] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[02:38:18] [main/WARN]: Warnings were found!
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[02:38:18] [main/INFO]: Loading 61 mods:
+	- antixray 1.4.6
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- collective 7.84
+	- dynamiclights 1.8.3+mod
+	- fabric-api 0.103.0+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.68+b559734419
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bc19
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a719
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.16+b559734419
+	   |-- fabric-convention-tags-v1 2.0.21+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.6.1+9b16164119
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.1.28+1daea21519
+	   |-- fabric-data-generation-api-v1 20.2.18+16c4ae2519
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.7.0+2122d82819
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.0.0+afdfc92119
+	   |-- fabric-item-group-api-v1 4.1.5+3fc0e55219
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df36019
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-networking-api-v1 4.2.2+60c3209b19
+	   |-- fabric-object-builder-api-v1 15.2.0+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.12+6508971219
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209b19
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.71+df3654b319
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.0+5659912919
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.86+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.1.17+1db1cc1f19
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
+	- fabric-language-kotlin 1.12.1+kotlin.2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.3
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.1
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- java 21
+	- lithium 0.13.0
+	- minecraft 1.21.1
+	- treeharvester 9.1
+[02:38:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/root/mc21lux/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:38:18] [main/INFO]: Compatibility level set to JAVA_17
+[02:38:18] [main/INFO]: Compatibility level set to JAVA_21
+[02:38:18] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 0 override(s) found
+[02:38:19] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:38:33] [main/INFO]: Successfully initialized antixray for fabric
+[02:38:33] [main/INFO]: Loading Collective version 7.84.
+[02:38:33] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[02:38:34] [main/WARN]: resource-pack-id missing, using default of f3b5718d-c70d-3c94-a2df-fa24ea10c3e7
+[02:38:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:38:36] [main/INFO]: Loaded 1290 recipes
+[02:38:36] [main/INFO]: Loaded 1400 advancements
+[02:38:37] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.592 ms
+[02:38:37] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[02:38:37] [Server thread/INFO]: Loading properties
+[02:38:37] [Server thread/INFO]: Default game type: SURVIVAL
+[02:38:37] [Server thread/INFO]: Generating keypair
+[02:38:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:38:37] [Server thread/INFO]: Using epoll channel type
+[02:38:38] [Server thread/INFO]: Preparing level "world"
+[02:38:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:38:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:38:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:38:41] [Server thread/INFO]: Time elapsed: 906 ms
+[02:38:41] [Server thread/INFO]: Done (3.667s)! For help, type "help"
+[03:36:30] [Netty Epoll Server IO #4/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
 	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
@@ -25,6 +127,7 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
 	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
 	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.redirect$zzf000$antixray$redirectSendPacket(class_2535.java:796) ~[server-intermediary.jar:?]
 	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
 	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
 	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
@@ -42,8 +145,9 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[09:51:01] [User Authenticator #29/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
-[09:51:04] [Server thread/INFO]: DewaYoGamer[/127.5.115.162:47017] logged in with entity id 497240 at (-30.352308926967755, 112.0, -35.123469258943516)
-[09:51:04] [Server thread/INFO]: DewaYoGamer joined the game
-[09:51:18] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
-[09:51:18] [Server thread/INFO]: DewaYoGamer left the game
+[03:45:00] [User Authenticator #1/INFO]: UUID of player DewaYoGamer is af92beee-9ce5-4143-8362-6019591fc3bf
+[03:45:04] [Server thread/INFO]: DewaYoGamer[/36.65.143.29:59535] logged in with entity id 190 at (590.4857382897206, -51.5, -218.8735804266392)
+[03:45:04] [Server thread/INFO]: DewaYoGamer joined the game
+[03:45:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[03:45:51] [Server thread/INFO]: DewaYoGamer lost connection: Disconnected
+[03:45:51] [Server thread/INFO]: DewaYoGamer left the game
